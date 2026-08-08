@@ -1,0 +1,33 @@
+class Main {
+    public static void main(String[]arg)
+   {
+       System.out.println("--BIO DATA--");
+
+       System.out.println("Name\t\t: Shivani Thakur");
+       System.out.println("Age\t\t: 22");
+        System.out.println("Gender\t\t: Female");
+       
+     System.out.println("Qualification\t\t:12th pass");
+     System.out.println("University\t\t: Sharda");
+      System.out.println("City\t\t:Delhi");
+      System.out.println("Country \t\t:India");
+     
+      System.out.println("--FORMATED OUTPUT--");
+      String Name="Shivani Thakur";
+      int age=22;
+      String gender="female";
+      String Qualification="12th Pass";
+      String University="Sharda";
+      String City="Delhi";
+      String Country="India";
+     
+      System.out.printf("Name:%s%n",Name);
+      System.out.printf("Age:%d%n",age);
+      System.out.printf("Gender:%s%n",gender);
+      System.out.printf("Qualification:%s%n",Qualification);
+      System.out.printf("University:%s%n",University);
+      System.out.printf("City:%s%n",City);
+      System.out.printf("Country:%s%n",Country);
+   
+     }
+}
