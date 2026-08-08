@@ -1,0 +1,56 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+       
+        Scanner sc=new Scanner(System.in);
+       
+        System.out.println("1. Addition");
+        System.out.println("2. Substraction");
+        System.out.println("3. Multiplication");  
+        System.out.println("4. Division");  
+       
+        int a,b,choice;
+        int result;
+        System.out.println("enter a");
+        a= sc.nextInt();
+       
+        System.out.println("enter b");
+        b= sc.nextInt();
+       
+        System.out.println("Enter your choice");
+        choice=sc.nextInt();
+       
+        switch(choice)
+        {
+           case 1:
+               result=a+b;
+              System.out.println(result);
+           break;
+           
+            case 2:
+               result=a-b;
+              System.out.println(result);
+           break;
+           
+            case 3:
+               result=a*b;
+              System.out.println(result);
+           break;
+           
+            case 4:
+                if(b==0){
+                    System.out.println("division by 0 is not possible");
+                }
+                else{
+               result=a/b;
+                System.out.println(result);
+           break;
+                }
+            default:
+               System.out.println("please enter valid choice");
+            sc.close();
+           
+        }
+       
+    }
+}
