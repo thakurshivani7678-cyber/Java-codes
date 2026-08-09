@@ -1,0 +1,39 @@
+class Employee{
+    int employee_id;
+    String name;
+    long Salary;
+    float age;
+    void set_data(int ID,String n,long s,float a)
+    {
+        employee_id=ID;
+        name=n;
+        Salary=s;
+        age=a;
+    }
+    void display()
+    {
+      System.out.println("ID of the employee is:"+employee_id);
+      System.out.println("Name of the employee is:"+name); 
+      System.out.println("Salary of the employee is:"+Salary);
+      System.out.println("Age of the employee is:"+age);
+    }
+    public static void main(String[] args)
+    {
+        Employee em1=new Employee();
+        em1.set_data(1,"Nancy",25000,20);
+        em1.display();
+        System.out.println();
+        Employee em2=new Employee();
+        em1.set_data(2,"Shivani",20000,22);
+        em1.display();
+        System.out.println();
+        Employee em3=new Employee();
+        em1.set_data(3,"Jayant",15000,20);
+        em1.display();
+        System.out.println();
+        Employee em4=new Employee();
+        em1.set_data(4,"Rani",22000,20);
+        em1.display();
+        System.out.println();
+    }
+}
