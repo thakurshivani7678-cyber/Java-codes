@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Bits {
+   public static void main(String args[]) {
+    Scanner sc = new Scanner(System.in);
+     System.out.println("enter the number for set operation");
+      int n = sc.nextInt(); 
+      System.out.println("enter the position for set operation");
+      int pos = sc.nextInt(); 
+      int bitMask = 1<<pos;
+
+      int newNumber = bitMask | n;
+      System.out.println(newNumber);
+   }
+}
